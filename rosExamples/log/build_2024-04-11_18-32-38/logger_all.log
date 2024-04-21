@@ -1,0 +1,190 @@
+[0.155s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.155s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a0d6e8560b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a0d6e94ec20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a0d6e94ec20>>)
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.480s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dwidar/Desktop/delta_host'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pub) by extension 'ros'
+[0.513s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pub' with type 'ros.ament_cmake' and name 'cpp_pub'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pub) by extension 'ros'
+[0.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pub' with type 'ros.ament_python' and name 'py_pub'
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.545s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.549s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_args' from command line to 'None'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_target' from command line to 'None'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.608s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dwidar/Desktop/delta_host/build/cpp_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dwidar/Desktop/delta_host/install/cpp_pub', 'merge_install': False, 'path': '/home/dwidar/Desktop/delta_host/src/cpp_pub', 'symlink_install': False, 'test_result_base': None}
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'cmake_args' from command line to 'None'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'cmake_target' from command line to 'None'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'py_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.609s] DEBUG:colcon.colcon_core.verb:Building package 'py_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dwidar/Desktop/delta_host/build/py_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dwidar/Desktop/delta_host/install/py_pub', 'merge_install': False, 'path': '/home/dwidar/Desktop/delta_host/src/py_pub', 'symlink_install': False, 'test_result_base': None}
+[0.609s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.610s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.611s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dwidar/Desktop/delta_host/src/cpp_pub' with build type 'ament_cmake'
+[0.611s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dwidar/Desktop/delta_host/src/cpp_pub'
+[0.614s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.615s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.619s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dwidar/Desktop/delta_host/src/py_pub' with build type 'ament_python'
+[0.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pub', 'ament_prefix_path')
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dwidar/Desktop/delta_host/install/py_pub/share/py_pub/hook/ament_prefix_path.ps1'
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dwidar/Desktop/delta_host/install/py_pub/share/py_pub/hook/ament_prefix_path.dsv'
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dwidar/Desktop/delta_host/install/py_pub/share/py_pub/hook/ament_prefix_path.sh'
+[0.622s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dwidar/Desktop/delta_host/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /home/dwidar/.local/bin/cmake /home/dwidar/Desktop/delta_host/src/cpp_pub -DCMAKE_INSTALL_PREFIX=/home/dwidar/Desktop/delta_host/install/cpp_pub
+[1.046s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dwidar/Desktop/delta_host/src/py_pub'
+[1.047s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.047s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dwidar/Desktop/delta_host/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/dwidar/.local/bin/cmake /home/dwidar/Desktop/delta_host/src/cpp_pub -DCMAKE_INSTALL_PREFIX=/home/dwidar/Desktop/delta_host/install/cpp_pub
+[1.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dwidar/Desktop/delta_host/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /home/dwidar/.local/bin/cmake --build /home/dwidar/Desktop/delta_host/build/cpp_pub -- -j20 -l20
+[1.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dwidar/Desktop/delta_host/src/py_pub': PYTHONPATH=/home/dwidar/Desktop/delta_host/build/py_pub/prefix_override:/home/dwidar/Desktop/delta_host/install/py_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pub build --build-base /home/dwidar/Desktop/delta_host/build/py_pub/build install --record /home/dwidar/Desktop/delta_host/build/py_pub/install.log --single-version-externally-managed install_data
+[1.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dwidar/Desktop/delta_host/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/dwidar/.local/bin/cmake --build /home/dwidar/Desktop/delta_host/build/cpp_pub -- -j20 -l20
+[1.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dwidar/Desktop/delta_host/build/cpp_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /home/dwidar/.local/bin/cmake --install /home/dwidar/Desktop/delta_host/build/cpp_pub
+[1.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pub)
+[1.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dwidar/Desktop/delta_host/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/dwidar/.local/bin/cmake --install /home/dwidar/Desktop/delta_host/build/cpp_pub
+[1.831s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/cpp_pub' for CMake module files
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/cpp_pub' for CMake config files
+[1.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pub', 'cmake_prefix_path')
+[1.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.ps1'
+[1.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.dsv'
+[1.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.sh'
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/cpp_pub/bin'
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/cpp_pub/lib/pkgconfig/cpp_pub.pc'
+[1.834s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/cpp_pub/lib/python3.10/site-packages'
+[1.835s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/cpp_pub/bin'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/package.ps1'
+[1.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/package.dsv'
+[1.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/package.sh'
+[1.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/package.bash'
+[1.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/package.zsh'
+[1.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dwidar/Desktop/delta_host/install/cpp_pub/share/colcon-core/packages/cpp_pub)
+[1.903s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pub)
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/cpp_pub' for CMake module files
+[1.904s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/cpp_pub' for CMake config files
+[1.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pub', 'cmake_prefix_path')
+[1.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.ps1'
+[1.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.dsv'
+[1.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.sh'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/cpp_pub/bin'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/cpp_pub/lib/pkgconfig/cpp_pub.pc'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/cpp_pub/lib/python3.10/site-packages'
+[1.907s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/cpp_pub/bin'
+[1.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/package.ps1'
+[1.908s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/package.dsv'
+[1.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/package.sh'
+[1.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/package.bash'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/dwidar/Desktop/delta_host/install/cpp_pub/share/cpp_pub/package.zsh'
+[1.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dwidar/Desktop/delta_host/install/cpp_pub/share/colcon-core/packages/cpp_pub)
+[2.101s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/py_pub' for CMake module files
+[2.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dwidar/Desktop/delta_host/src/py_pub' returned '0': PYTHONPATH=/home/dwidar/Desktop/delta_host/build/py_pub/prefix_override:/home/dwidar/Desktop/delta_host/install/py_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pub build --build-base /home/dwidar/Desktop/delta_host/build/py_pub/build install --record /home/dwidar/Desktop/delta_host/build/py_pub/install.log --single-version-externally-managed install_data
+[2.102s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/py_pub' for CMake config files
+[2.102s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/py_pub/lib'
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/py_pub/bin'
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/py_pub/lib/pkgconfig/py_pub.pc'
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/py_pub/lib/python3.10/site-packages'
+[2.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pub', 'pythonpath')
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dwidar/Desktop/delta_host/install/py_pub/share/py_pub/hook/pythonpath.ps1'
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dwidar/Desktop/delta_host/install/py_pub/share/py_pub/hook/pythonpath.dsv'
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dwidar/Desktop/delta_host/install/py_pub/share/py_pub/hook/pythonpath.sh'
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/dwidar/Desktop/delta_host/install/py_pub/bin'
+[2.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pub)
+[2.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/dwidar/Desktop/delta_host/install/py_pub/share/py_pub/package.ps1'
+[2.106s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dwidar/Desktop/delta_host/install/py_pub/share/py_pub/package.dsv'
+[2.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/dwidar/Desktop/delta_host/install/py_pub/share/py_pub/package.sh'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/dwidar/Desktop/delta_host/install/py_pub/share/py_pub/package.bash'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/dwidar/Desktop/delta_host/install/py_pub/share/py_pub/package.zsh'
+[2.107s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dwidar/Desktop/delta_host/install/py_pub/share/colcon-core/packages/py_pub)
+[2.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.108s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.117s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.117s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.117s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.134s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.135s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dwidar/Desktop/delta_host/install/local_setup.ps1'
+[2.136s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dwidar/Desktop/delta_host/install/_local_setup_util_ps1.py'
+[2.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dwidar/Desktop/delta_host/install/setup.ps1'
+[2.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dwidar/Desktop/delta_host/install/local_setup.sh'
+[2.141s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dwidar/Desktop/delta_host/install/_local_setup_util_sh.py'
+[2.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dwidar/Desktop/delta_host/install/setup.sh'
+[2.143s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dwidar/Desktop/delta_host/install/local_setup.bash'
+[2.144s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dwidar/Desktop/delta_host/install/setup.bash'
+[2.145s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dwidar/Desktop/delta_host/install/local_setup.zsh'
+[2.146s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dwidar/Desktop/delta_host/install/setup.zsh'

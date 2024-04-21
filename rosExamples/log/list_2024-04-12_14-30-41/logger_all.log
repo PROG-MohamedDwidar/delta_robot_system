@@ -1,0 +1,76 @@
+[0.681s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/dwidar/Desktop/delta_host']
+[0.682s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/dwidar/Desktop/delta_host'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x787df664ed40>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x787df664e860>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x787df664e860>>)
+[1.814s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.815s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.815s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dwidar/Desktop/delta_host'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extensions ['ignore', 'ignore_ament_install']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extension 'ignore'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extension 'ignore_ament_install'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extensions ['colcon_pkg']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extension 'colcon_pkg'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extensions ['colcon_meta']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extension 'colcon_meta'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extensions ['ros']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extension 'ros'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extensions ['cmake', 'python']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extension 'cmake'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extension 'python'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extensions ['python_setup_py']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host) by extension 'python_setup_py'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/build) by extensions ['ignore', 'ignore_ament_install']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/build) by extension 'ignore'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/build) ignored
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/install) by extensions ['ignore', 'ignore_ament_install']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/install) by extension 'ignore'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/install) ignored
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/log) by extensions ['ignore', 'ignore_ament_install']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/log) by extension 'ignore'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/log) ignored
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extensions ['ignore', 'ignore_ament_install']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extension 'ignore'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extension 'ignore_ament_install'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extensions ['colcon_pkg']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extension 'colcon_pkg'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extensions ['colcon_meta']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extension 'colcon_meta'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extensions ['ros']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extension 'ros'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extensions ['cmake', 'python']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extension 'cmake'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extension 'python'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extensions ['python_setup_py']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src) by extension 'python_setup_py'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/cpp_pub) by extensions ['ignore', 'ignore_ament_install']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/cpp_pub) by extension 'ignore'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/cpp_pub) by extension 'ignore_ament_install'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/cpp_pub) by extensions ['colcon_pkg']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/cpp_pub) by extension 'colcon_pkg'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/cpp_pub) by extensions ['colcon_meta']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/cpp_pub) by extension 'colcon_meta'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/cpp_pub) by extensions ['ros']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/cpp_pub) by extension 'ros'
+[1.898s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dwidar/Desktop/delta_host/src/cpp_pub' with type 'ros.ament_cmake' and name 'cpp_pub'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/py_pub) by extensions ['ignore', 'ignore_ament_install']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/py_pub) by extension 'ignore'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/py_pub) by extension 'ignore_ament_install'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/py_pub) by extensions ['colcon_pkg']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/py_pub) by extension 'colcon_pkg'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/py_pub) by extensions ['colcon_meta']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/py_pub) by extension 'colcon_meta'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/py_pub) by extensions ['ros']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/py_pub) by extension 'ros'
+[1.904s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dwidar/Desktop/delta_host/src/py_pub' with type 'ros.ament_python' and name 'py_pub'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/testcontrol) by extensions ['ignore', 'ignore_ament_install']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/testcontrol) by extension 'ignore'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/testcontrol) by extension 'ignore_ament_install'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/testcontrol) by extensions ['colcon_pkg']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/testcontrol) by extension 'colcon_pkg'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/testcontrol) by extensions ['colcon_meta']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/testcontrol) by extension 'colcon_meta'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/testcontrol) by extensions ['ros']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/dwidar/Desktop/delta_host/src/testcontrol) by extension 'ros'
+[1.910s] DEBUG:colcon.colcon_core.package_identification:Package '/home/dwidar/Desktop/delta_host/src/testcontrol' with type 'ros.ament_python' and name 'testcontrol'
+[1.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
